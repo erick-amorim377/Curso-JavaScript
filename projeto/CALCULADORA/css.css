@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    background-image: url(./img/ichigo.jpg);
+    background-size: cover;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background: rgba(255, 0, 0, 0.25);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.calculadora{
+    width: 100%;
+    
+    border-radius: 10px;
+}
+
+.display{
+    width: 100%;
+    height: 30px;
+    max-width: 5px auto;
+    
+}
+
+.bnt {
+    width: 100%;
+    margin: 5px auto;
+    cursor: pointer;
+
+}

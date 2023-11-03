@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(143,141,255);
+    background: radial-gradient(circle, rgba(143,141,255,1) 0%, rgba(255,182,182,0.6671043417366946) 84%);   
+}
+
+.cont{
+    background-color: rgba(15, 192, 228,0.25);
+    width: 500px;
+    height: auto;
+    padding: 30px 20px;
+    margin: 50px auto;
+    border-radius: 15px;
+    
+}

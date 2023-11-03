@@ -1,0 +1,105 @@
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap'); */
+:root {
+--corpri: rgb(36, 8, 146);
+--corpridar: rgb(23, 5, 96);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--corpri);
+}
+
+.container{
+    background: white;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    margin: 70px auto;
+    border-radius: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    max-width: 500px;
+
+}
+
+.header{
+    margin-top: 0px;
+    background-color: aqua;
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+
+
+
+}
+.cont{
+    float: right;
+    /* margin: 50% 20px; */
+    margin: 25px;
+
+    clear: both;
+}
+
+.input label{
+    float: left;
+}
+
+.input input{
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+    padding: 10px;
+
+
+}
+
+.input, label, input{
+    margin-bottom: 10px;
+
+}
+
+ button{
+    border-radius: 20px;
+    cursor: pointer;
+    background: var(--corpri);
+    padding: 10px;
+    font-weight: bold;
+
+    
+
+}
+
+ button:hover{
+    background: var(--corpridar); 
+}
+ button:active{
+    background: rgb(101, 67, 212); 
+}
+
+.a1{
+    float: left;
+    width: 50%;
+}
+
+.a2{
+    float: left;
+    width: 50%;
+}
+
+.correcao{
+    clear: both;
+    
+}
+
+.bad{
+    background: rgb(245, 71, 71);
+}
+.good{
+    background: rgb(74, 249, 74);
+
+}
